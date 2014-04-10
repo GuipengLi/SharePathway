@@ -9,4 +9,3 @@ sharepathway/linkpath2mat.py
 sharepathway/out2html.py
 sharepathway/parse_kegg.py
 sharepathway/run.py
-sharepathway/setup.py
