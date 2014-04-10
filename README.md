@@ -33,8 +33,7 @@ sp.run(fi=files,fo=fileout)
 
 The result will be output to a html file
 
-## Citation
-
+## Contact
 
 Author: Guipeng Li
 
