@@ -1,2 +1,1 @@
-include README.rst *.txt
-setup.py
+include README.rst *.txt setup.py
