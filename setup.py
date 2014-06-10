@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name = 'sharepathway',
@@ -10,6 +10,7 @@ setup(
     url = 'https://github.com/GuipengLi/sharepathway',   # use the URL to the github repo
     keywords = ['detection', 'pathway', 'enrichment', 'share', 'multiple gene lists'], # arbitrary keywords
     classifiers = [],
-    long_description=open('README.txt').read(),
+    long_description=open('README.rst').read(),
+    include_package_data=True,
     install_requires=["numpy >= 1.6.0", "scipy >= 0.12.0"],
 )
