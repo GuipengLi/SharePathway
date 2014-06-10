@@ -15,26 +15,27 @@ package manager for Python.
 
     pip install sharepathway
 
-Or, you can [download the source code
-(ZIP)](https://github.com/GuipengLi/SharePathway/zipball/master "SharePathway
-source code") for `SharePathway`, and then run:
+Or, you can [download the source code](https://github.com/GuipengLi/SharePathway) for `SharePathway`, and then run:
 
     python setup.py install
 
 ## Usage
-Assume you have put all the path of your gene list files in one summary file genelists.txt (one path per line). And the result will be saved in file result.html
+Assume you have put all the path of your gene list files in one summary file genelists.txt (one path per line). And the result will be saved in the file result.html.
+
+## Test data
+See the gene list files in data/
 
 ```python
 import sharepathway as sp
-filein="genelists.txt"
+filein="data/genelists.txt"
 fileout="result"
-sp.run(fi=files,fo=fileout)
+sp.run(fi=filein,fo=fileout)
 ```
 
-The result will be output to a html file
+The result will be output to a html file.
 
 ## Contact
 
 Author: Guipeng Li
 
-Email:  guipenglee@gmail.com
+Email:  guipeng.lee@gmail.com

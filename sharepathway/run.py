@@ -5,10 +5,19 @@ import pickle
 import urllib2
 import numpy as np
 
-def run(*args, **kwargs):
+from sharepathway.enrichment import enrichment
+from sharepathway.geneIDconv import geneIDconv
+from sharepathway.genes2mat import genes2mat
+from sharepathway.linkpath2mat import linkpath2mat
+from sharepathway.out2html import out2html
+from parse_kegg import Request
+
+def Run(*args, **kwargs):
+
     species = kwargs.get('species', 'hsa') #default: 'hsa'
-    filein = kwargs.get('fi','genelists.txt')
-    fileout = kwargs.get('fo','sharepathway-result')
+    filein = kwargs.get('fi')
+    fileout = kwargs.get('fo')
+
     fileout = fileout+'.html'
     ratio = kwargs.get('r',0.01)
     # parse gene lists into matrix
@@ -20,4 +29,3 @@ def run(*args, **kwargs):
     [Pathways, pathwaycount, pathwayMat] = linkpath2mat(Genes, data)
     enrich = enrichment(GenesMat, pathwayMat)
     result = out2html(GenesMat, pathwayMat,enrich,Genes,Pathways,genelists,pathwaycount,ratio,fileout)
-

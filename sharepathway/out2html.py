@@ -100,7 +100,7 @@ def out2html(*args, **kwargs):
     <li>Number of input samples: %d </li>
     <li>Number of input genes per sample: %s</li>
     <li>Totol number of unique input genes: %d</li>
-    <li>This file is created by <a href="http://www.baidu.com">Sharepathway</a> at %s</li>
+    <li>This file is created by <a href="https://github.com/GuipengLi/SharePathway">sharepathway</a> at %s</li>
 </ul>
 </h2>
 </div>

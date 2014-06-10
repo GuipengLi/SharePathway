@@ -1,3 +1,5 @@
+from parse_kegg import Request
+
 def geneIDconv(*args, **kwargs):
     species = kwargs.get('species', 'hsa') #default: 'hsa'
     ngid = kwargs.get('NCBI-GeneID', 'ncbi-geneid')
