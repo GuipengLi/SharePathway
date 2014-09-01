@@ -10,6 +10,7 @@ SharePathway is motivated at providing users a simple and easy-to-use tool for e
 Installation
 ------------
 
+This version is only for python2. I'm working on update for python3. 
 The first step is to install Python if you haven't already. Python is available from the `Python project page <https://www.python.org/>`_ . The next step is install sharepathway.
 
 Install from PyPi using `pip <http://www.pip-installer.org/en/latest/>`_, a
