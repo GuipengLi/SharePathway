@@ -10,7 +10,7 @@ from sharepathway.geneIDconv import geneIDconv
 from sharepathway.genes2mat import genes2mat
 from sharepathway.linkpath2mat import linkpath2mat
 from sharepathway.out2html import out2html
-from parse_kegg import Request
+from sharepathway.parse_kegg import Request
 
 def Run(*args, **kwargs):
 
