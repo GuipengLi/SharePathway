@@ -2,7 +2,7 @@
 from itertools import chain, groupby
 from collections import defaultdict
 import pickle
-#import urllib2
+import urllib2
 import numpy as np
 
 from sharepathway.enrichment import enrichment
