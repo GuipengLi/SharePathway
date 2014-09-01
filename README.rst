@@ -29,7 +29,7 @@ Assume you have put all the path of your gene list files in one summary file gen
 	import sharepathway as sp
 	filein="data/genelists.txt"
 	fileout="result"
-	sp.run(fi=filein,fo=fileout)
+	sp.Run(fi=filein,fo=fileout)
 
 The result will be output to a html file.
 
