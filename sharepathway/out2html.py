@@ -106,6 +106,7 @@ def out2html(*args, **kwargs):
 </div>
 """ %('hsa',pnum,snum,str(genelistscount),gnum, localtime)
 
+
     print >>outfile, """
 <div id='Details'>
 <h1>Details</h1>
