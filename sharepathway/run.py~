@@ -27,6 +27,6 @@ def Run(*args, **kwargs):
     data=Request('link','path',species)
     pwid2name = Request('list','pathway',species)
     # parse KEGG into matrix
-    [Pathways, pathwaycount, pathwayMat] = linkpath2mat(Genes, data)
+    [Pathways, pathwaycount, pathwayMat] = linkpath2mat(Genes, data, pwid2name)
     enrich = enrichment(GenesMat, pathwayMat)
-    result = out2html(GenesMat, pathwayMat,enrich,Genes,Pathways,genelists,pathwaycount,ratio,fileout, pwid2name)
+    result = out2html(GenesMat, pathwayMat,enrich,Genes,Pathways,genelists,pathwaycount,ratio,fileout)

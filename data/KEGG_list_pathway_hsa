@@ -1,0 +1,1447 @@
+(lp0
+(S'path:hsa00010'
+p1
+S'Glycolysis / Gluconeogenesis - Homo sapiens (human)'
+p2
+tp3
+a(S'path:hsa00020'
+p4
+S'Citrate cycle (TCA cycle) - Homo sapiens (human)'
+p5
+tp6
+a(S'path:hsa00030'
+p7
+S'Pentose phosphate pathway - Homo sapiens (human)'
+p8
+tp9
+a(S'path:hsa00040'
+p10
+S'Pentose and glucuronate interconversions - Homo sapiens (human)'
+p11
+tp12
+a(S'path:hsa00051'
+p13
+S'Fructose and mannose metabolism - Homo sapiens (human)'
+p14
+tp15
+a(S'path:hsa00052'
+p16
+S'Galactose metabolism - Homo sapiens (human)'
+p17
+tp18
+a(S'path:hsa00053'
+p19
+S'Ascorbate and aldarate metabolism - Homo sapiens (human)'
+p20
+tp21
+a(S'path:hsa00061'
+p22
+S'Fatty acid biosynthesis - Homo sapiens (human)'
+p23
+tp24
+a(S'path:hsa00062'
+p25
+S'Fatty acid elongation - Homo sapiens (human)'
+p26
+tp27
+a(S'path:hsa00071'
+p28
+S'Fatty acid degradation - Homo sapiens (human)'
+p29
+tp30
+a(S'path:hsa00072'
+p31
+S'Synthesis and degradation of ketone bodies - Homo sapiens (human)'
+p32
+tp33
+a(S'path:hsa00100'
+p34
+S'Steroid biosynthesis - Homo sapiens (human)'
+p35
+tp36
+a(S'path:hsa00120'
+p37
+S'Primary bile acid biosynthesis - Homo sapiens (human)'
+p38
+tp39
+a(S'path:hsa00130'
+p40
+S'Ubiquinone and other terpenoid-quinone biosynthesis - Homo sapiens (human)'
+p41
+tp42
+a(S'path:hsa00140'
+p43
+S'Steroid hormone biosynthesis - Homo sapiens (human)'
+p44
+tp45
+a(S'path:hsa00190'
+p46
+S'Oxidative phosphorylation - Homo sapiens (human)'
+p47
+tp48
+a(S'path:hsa00230'
+p49
+S'Purine metabolism - Homo sapiens (human)'
+p50
+tp51
+a(S'path:hsa00232'
+p52
+S'Caffeine metabolism - Homo sapiens (human)'
+p53
+tp54
+a(S'path:hsa00240'
+p55
+S'Pyrimidine metabolism - Homo sapiens (human)'
+p56
+tp57
+a(S'path:hsa00250'
+p58
+S'Alanine, aspartate and glutamate metabolism - Homo sapiens (human)'
+p59
+tp60
+a(S'path:hsa00260'
+p61
+S'Glycine, serine and threonine metabolism - Homo sapiens (human)'
+p62
+tp63
+a(S'path:hsa00270'
+p64
+S'Cysteine and methionine metabolism - Homo sapiens (human)'
+p65
+tp66
+a(S'path:hsa00280'
+p67
+S'Valine, leucine and isoleucine degradation - Homo sapiens (human)'
+p68
+tp69
+a(S'path:hsa00290'
+p70
+S'Valine, leucine and isoleucine biosynthesis - Homo sapiens (human)'
+p71
+tp72
+a(S'path:hsa00300'
+p73
+S'Lysine biosynthesis - Homo sapiens (human)'
+p74
+tp75
+a(S'path:hsa00310'
+p76
+S'Lysine degradation - Homo sapiens (human)'
+p77
+tp78
+a(S'path:hsa00330'
+p79
+S'Arginine and proline metabolism - Homo sapiens (human)'
+p80
+tp81
+a(S'path:hsa00340'
+p82
+S'Histidine metabolism - Homo sapiens (human)'
+p83
+tp84
+a(S'path:hsa00350'
+p85
+S'Tyrosine metabolism - Homo sapiens (human)'
+p86
+tp87
+a(S'path:hsa00360'
+p88
+S'Phenylalanine metabolism - Homo sapiens (human)'
+p89
+tp90
+a(S'path:hsa00380'
+p91
+S'Tryptophan metabolism - Homo sapiens (human)'
+p92
+tp93
+a(S'path:hsa00400'
+p94
+S'Phenylalanine, tyrosine and tryptophan biosynthesis - Homo sapiens (human)'
+p95
+tp96
+a(S'path:hsa00410'
+p97
+S'beta-Alanine metabolism - Homo sapiens (human)'
+p98
+tp99
+a(S'path:hsa00430'
+p100
+S'Taurine and hypotaurine metabolism - Homo sapiens (human)'
+p101
+tp102
+a(S'path:hsa00450'
+p103
+S'Selenocompound metabolism - Homo sapiens (human)'
+p104
+tp105
+a(S'path:hsa00460'
+p106
+S'Cyanoamino acid metabolism - Homo sapiens (human)'
+p107
+tp108
+a(S'path:hsa00471'
+p109
+S'D-Glutamine and D-glutamate metabolism - Homo sapiens (human)'
+p110
+tp111
+a(S'path:hsa00472'
+p112
+S'D-Arginine and D-ornithine metabolism - Homo sapiens (human)'
+p113
+tp114
+a(S'path:hsa00480'
+p115
+S'Glutathione metabolism - Homo sapiens (human)'
+p116
+tp117
+a(S'path:hsa00500'
+p118
+S'Starch and sucrose metabolism - Homo sapiens (human)'
+p119
+tp120
+a(S'path:hsa00510'
+p121
+S'N-Glycan biosynthesis - Homo sapiens (human)'
+p122
+tp123
+a(S'path:hsa00511'
+p124
+S'Other glycan degradation - Homo sapiens (human)'
+p125
+tp126
+a(S'path:hsa00512'
+p127
+S'Mucin type O-Glycan biosynthesis - Homo sapiens (human)'
+p128
+tp129
+a(S'path:hsa00514'
+p130
+S'Other types of O-glycan biosynthesis - Homo sapiens (human)'
+p131
+tp132
+a(S'path:hsa00520'
+p133
+S'Amino sugar and nucleotide sugar metabolism - Homo sapiens (human)'
+p134
+tp135
+a(S'path:hsa00524'
+p136
+S'Butirosin and neomycin biosynthesis - Homo sapiens (human)'
+p137
+tp138
+a(S'path:hsa00531'
+p139
+S'Glycosaminoglycan degradation - Homo sapiens (human)'
+p140
+tp141
+a(S'path:hsa00532'
+p142
+S'Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate - Homo sapiens (human)'
+p143
+tp144
+a(S'path:hsa00533'
+p145
+S'Glycosaminoglycan biosynthesis - keratan sulfate - Homo sapiens (human)'
+p146
+tp147
+a(S'path:hsa00534'
+p148
+S'Glycosaminoglycan biosynthesis - heparan sulfate / heparin - Homo sapiens (human)'
+p149
+tp150
+a(S'path:hsa00561'
+p151
+S'Glycerolipid metabolism - Homo sapiens (human)'
+p152
+tp153
+a(S'path:hsa00562'
+p154
+S'Inositol phosphate metabolism - Homo sapiens (human)'
+p155
+tp156
+a(S'path:hsa00563'
+p157
+S'Glycosylphosphatidylinositol(GPI)-anchor biosynthesis - Homo sapiens (human)'
+p158
+tp159
+a(S'path:hsa00564'
+p160
+S'Glycerophospholipid metabolism - Homo sapiens (human)'
+p161
+tp162
+a(S'path:hsa00565'
+p163
+S'Ether lipid metabolism - Homo sapiens (human)'
+p164
+tp165
+a(S'path:hsa00590'
+p166
+S'Arachidonic acid metabolism - Homo sapiens (human)'
+p167
+tp168
+a(S'path:hsa00591'
+p169
+S'Linoleic acid metabolism - Homo sapiens (human)'
+p170
+tp171
+a(S'path:hsa00592'
+p172
+S'alpha-Linolenic acid metabolism - Homo sapiens (human)'
+p173
+tp174
+a(S'path:hsa00600'
+p175
+S'Sphingolipid metabolism - Homo sapiens (human)'
+p176
+tp177
+a(S'path:hsa00601'
+p178
+S'Glycosphingolipid biosynthesis - lacto and neolacto series - Homo sapiens (human)'
+p179
+tp180
+a(S'path:hsa00603'
+p181
+S'Glycosphingolipid biosynthesis - globo series - Homo sapiens (human)'
+p182
+tp183
+a(S'path:hsa00604'
+p184
+S'Glycosphingolipid biosynthesis - ganglio series - Homo sapiens (human)'
+p185
+tp186
+a(S'path:hsa00620'
+p187
+S'Pyruvate metabolism - Homo sapiens (human)'
+p188
+tp189
+a(S'path:hsa00630'
+p190
+S'Glyoxylate and dicarboxylate metabolism - Homo sapiens (human)'
+p191
+tp192
+a(S'path:hsa00640'
+p193
+S'Propanoate metabolism - Homo sapiens (human)'
+p194
+tp195
+a(S'path:hsa00650'
+p196
+S'Butanoate metabolism - Homo sapiens (human)'
+p197
+tp198
+a(S'path:hsa00670'
+p199
+S'One carbon pool by folate - Homo sapiens (human)'
+p200
+tp201
+a(S'path:hsa00730'
+p202
+S'Thiamine metabolism - Homo sapiens (human)'
+p203
+tp204
+a(S'path:hsa00740'
+p205
+S'Riboflavin metabolism - Homo sapiens (human)'
+p206
+tp207
+a(S'path:hsa00750'
+p208
+S'Vitamin B6 metabolism - Homo sapiens (human)'
+p209
+tp210
+a(S'path:hsa00760'
+p211
+S'Nicotinate and nicotinamide metabolism - Homo sapiens (human)'
+p212
+tp213
+a(S'path:hsa00770'
+p214
+S'Pantothenate and CoA biosynthesis - Homo sapiens (human)'
+p215
+tp216
+a(S'path:hsa00780'
+p217
+S'Biotin metabolism - Homo sapiens (human)'
+p218
+tp219
+a(S'path:hsa00785'
+p220
+S'Lipoic acid metabolism - Homo sapiens (human)'
+p221
+tp222
+a(S'path:hsa00790'
+p223
+S'Folate biosynthesis - Homo sapiens (human)'
+p224
+tp225
+a(S'path:hsa00830'
+p226
+S'Retinol metabolism - Homo sapiens (human)'
+p227
+tp228
+a(S'path:hsa00860'
+p229
+S'Porphyrin and chlorophyll metabolism - Homo sapiens (human)'
+p230
+tp231
+a(S'path:hsa00900'
+p232
+S'Terpenoid backbone biosynthesis - Homo sapiens (human)'
+p233
+tp234
+a(S'path:hsa00910'
+p235
+S'Nitrogen metabolism - Homo sapiens (human)'
+p236
+tp237
+a(S'path:hsa00920'
+p238
+S'Sulfur metabolism - Homo sapiens (human)'
+p239
+tp240
+a(S'path:hsa00970'
+p241
+S'Aminoacyl-tRNA biosynthesis - Homo sapiens (human)'
+p242
+tp243
+a(S'path:hsa00980'
+p244
+S'Metabolism of xenobiotics by cytochrome P450 - Homo sapiens (human)'
+p245
+tp246
+a(S'path:hsa00982'
+p247
+S'Drug metabolism - cytochrome P450 - Homo sapiens (human)'
+p248
+tp249
+a(S'path:hsa00983'
+p250
+S'Drug metabolism - other enzymes - Homo sapiens (human)'
+p251
+tp252
+a(S'path:hsa01040'
+p253
+S'Biosynthesis of unsaturated fatty acids - Homo sapiens (human)'
+p254
+tp255
+a(S'path:hsa01100'
+p256
+S'Metabolic pathways - Homo sapiens (human)'
+p257
+tp258
+a(S'path:hsa01200'
+p259
+S'Carbon metabolism - Homo sapiens (human)'
+p260
+tp261
+a(S'path:hsa01210'
+p262
+S'2-Oxocarboxylic acid metabolism - Homo sapiens (human)'
+p263
+tp264
+a(S'path:hsa01212'
+p265
+S'Fatty acid metabolism - Homo sapiens (human)'
+p266
+tp267
+a(S'path:hsa01220'
+p268
+S'Degradation of aromatic compounds - Homo sapiens (human)'
+p269
+tp270
+a(S'path:hsa01230'
+p271
+S'Biosynthesis of amino acids - Homo sapiens (human)'
+p272
+tp273
+a(S'path:hsa02010'
+p274
+S'ABC transporters - Homo sapiens (human)'
+p275
+tp276
+a(S'path:hsa03008'
+p277
+S'Ribosome biogenesis in eukaryotes - Homo sapiens (human)'
+p278
+tp279
+a(S'path:hsa03010'
+p280
+S'Ribosome - Homo sapiens (human)'
+p281
+tp282
+a(S'path:hsa03013'
+p283
+S'RNA transport - Homo sapiens (human)'
+p284
+tp285
+a(S'path:hsa03015'
+p286
+S'mRNA surveillance pathway - Homo sapiens (human)'
+p287
+tp288
+a(S'path:hsa03018'
+p289
+S'RNA degradation - Homo sapiens (human)'
+p290
+tp291
+a(S'path:hsa03020'
+p292
+S'RNA polymerase - Homo sapiens (human)'
+p293
+tp294
+a(S'path:hsa03022'
+p295
+S'Basal transcription factors - Homo sapiens (human)'
+p296
+tp297
+a(S'path:hsa03030'
+p298
+S'DNA replication - Homo sapiens (human)'
+p299
+tp300
+a(S'path:hsa03040'
+p301
+S'Spliceosome - Homo sapiens (human)'
+p302
+tp303
+a(S'path:hsa03050'
+p304
+S'Proteasome - Homo sapiens (human)'
+p305
+tp306
+a(S'path:hsa03060'
+p307
+S'Protein export - Homo sapiens (human)'
+p308
+tp309
+a(S'path:hsa03320'
+p310
+S'PPAR signaling pathway - Homo sapiens (human)'
+p311
+tp312
+a(S'path:hsa03410'
+p313
+S'Base excision repair - Homo sapiens (human)'
+p314
+tp315
+a(S'path:hsa03420'
+p316
+S'Nucleotide excision repair - Homo sapiens (human)'
+p317
+tp318
+a(S'path:hsa03430'
+p319
+S'Mismatch repair - Homo sapiens (human)'
+p320
+tp321
+a(S'path:hsa03440'
+p322
+S'Homologous recombination - Homo sapiens (human)'
+p323
+tp324
+a(S'path:hsa03450'
+p325
+S'Non-homologous end-joining - Homo sapiens (human)'
+p326
+tp327
+a(S'path:hsa03460'
+p328
+S'Fanconi anemia pathway - Homo sapiens (human)'
+p329
+tp330
+a(S'path:hsa04010'
+p331
+S'MAPK signaling pathway - Homo sapiens (human)'
+p332
+tp333
+a(S'path:hsa04012'
+p334
+S'ErbB signaling pathway - Homo sapiens (human)'
+p335
+tp336
+a(S'path:hsa04014'
+p337
+S'Ras signaling pathway - Homo sapiens (human)'
+p338
+tp339
+a(S'path:hsa04015'
+p340
+S'Rap1 signaling pathway - Homo sapiens (human)'
+p341
+tp342
+a(S'path:hsa04020'
+p343
+S'Calcium signaling pathway - Homo sapiens (human)'
+p344
+tp345
+a(S'path:hsa04022'
+p346
+S'cGMP-PKG signaling pathway - Homo sapiens (human)'
+p347
+tp348
+a(S'path:hsa04024'
+p349
+S'cAMP signaling pathway - Homo sapiens (human)'
+p350
+tp351
+a(S'path:hsa04060'
+p352
+S'Cytokine-cytokine receptor interaction - Homo sapiens (human)'
+p353
+tp354
+a(S'path:hsa04062'
+p355
+S'Chemokine signaling pathway - Homo sapiens (human)'
+p356
+tp357
+a(S'path:hsa04064'
+p358
+S'NF-kappa B signaling pathway - Homo sapiens (human)'
+p359
+tp360
+a(S'path:hsa04066'
+p361
+S'HIF-1 signaling pathway - Homo sapiens (human)'
+p362
+tp363
+a(S'path:hsa04068'
+p364
+S'FoxO signaling pathway - Homo sapiens (human)'
+p365
+tp366
+a(S'path:hsa04070'
+p367
+S'Phosphatidylinositol signaling system - Homo sapiens (human)'
+p368
+tp369
+a(S'path:hsa04080'
+p370
+S'Neuroactive ligand-receptor interaction - Homo sapiens (human)'
+p371
+tp372
+a(S'path:hsa04110'
+p373
+S'Cell cycle - Homo sapiens (human)'
+p374
+tp375
+a(S'path:hsa04114'
+p376
+S'Oocyte meiosis - Homo sapiens (human)'
+p377
+tp378
+a(S'path:hsa04115'
+p379
+S'p53 signaling pathway - Homo sapiens (human)'
+p380
+tp381
+a(S'path:hsa04120'
+p382
+S'Ubiquitin mediated proteolysis - Homo sapiens (human)'
+p383
+tp384
+a(S'path:hsa04122'
+p385
+S'Sulfur relay system - Homo sapiens (human)'
+p386
+tp387
+a(S'path:hsa04130'
+p388
+S'SNARE interactions in vesicular transport - Homo sapiens (human)'
+p389
+tp390
+a(S'path:hsa04140'
+p391
+S'Regulation of autophagy - Homo sapiens (human)'
+p392
+tp393
+a(S'path:hsa04141'
+p394
+S'Protein processing in endoplasmic reticulum - Homo sapiens (human)'
+p395
+tp396
+a(S'path:hsa04142'
+p397
+S'Lysosome - Homo sapiens (human)'
+p398
+tp399
+a(S'path:hsa04144'
+p400
+S'Endocytosis - Homo sapiens (human)'
+p401
+tp402
+a(S'path:hsa04145'
+p403
+S'Phagosome - Homo sapiens (human)'
+p404
+tp405
+a(S'path:hsa04146'
+p406
+S'Peroxisome - Homo sapiens (human)'
+p407
+tp408
+a(S'path:hsa04150'
+p409
+S'mTOR signaling pathway - Homo sapiens (human)'
+p410
+tp411
+a(S'path:hsa04151'
+p412
+S'PI3K-Akt signaling pathway - Homo sapiens (human)'
+p413
+tp414
+a(S'path:hsa04152'
+p415
+S'AMPK signaling pathway - Homo sapiens (human)'
+p416
+tp417
+a(S'path:hsa04210'
+p418
+S'Apoptosis - Homo sapiens (human)'
+p419
+tp420
+a(S'path:hsa04260'
+p421
+S'Cardiac muscle contraction - Homo sapiens (human)'
+p422
+tp423
+a(S'path:hsa04261'
+p424
+S'Adrenergic signaling in cardiomyocytes - Homo sapiens (human)'
+p425
+tp426
+a(S'path:hsa04270'
+p427
+S'Vascular smooth muscle contraction - Homo sapiens (human)'
+p428
+tp429
+a(S'path:hsa04310'
+p430
+S'Wnt signaling pathway - Homo sapiens (human)'
+p431
+tp432
+a(S'path:hsa04320'
+p433
+S'Dorso-ventral axis formation - Homo sapiens (human)'
+p434
+tp435
+a(S'path:hsa04330'
+p436
+S'Notch signaling pathway - Homo sapiens (human)'
+p437
+tp438
+a(S'path:hsa04340'
+p439
+S'Hedgehog signaling pathway - Homo sapiens (human)'
+p440
+tp441
+a(S'path:hsa04350'
+p442
+S'TGF-beta signaling pathway - Homo sapiens (human)'
+p443
+tp444
+a(S'path:hsa04360'
+p445
+S'Axon guidance - Homo sapiens (human)'
+p446
+tp447
+a(S'path:hsa04370'
+p448
+S'VEGF signaling pathway - Homo sapiens (human)'
+p449
+tp450
+a(S'path:hsa04380'
+p451
+S'Osteoclast differentiation - Homo sapiens (human)'
+p452
+tp453
+a(S'path:hsa04390'
+p454
+S'Hippo signaling pathway - Homo sapiens (human)'
+p455
+tp456
+a(S'path:hsa04510'
+p457
+S'Focal adhesion - Homo sapiens (human)'
+p458
+tp459
+a(S'path:hsa04512'
+p460
+S'ECM-receptor interaction - Homo sapiens (human)'
+p461
+tp462
+a(S'path:hsa04514'
+p463
+S'Cell adhesion molecules (CAMs) - Homo sapiens (human)'
+p464
+tp465
+a(S'path:hsa04520'
+p466
+S'Adherens junction - Homo sapiens (human)'
+p467
+tp468
+a(S'path:hsa04530'
+p469
+S'Tight junction - Homo sapiens (human)'
+p470
+tp471
+a(S'path:hsa04540'
+p472
+S'Gap junction - Homo sapiens (human)'
+p473
+tp474
+a(S'path:hsa04550'
+p475
+S'Signaling pathways regulating pluripotency of stem cells - Homo sapiens (human)'
+p476
+tp477
+a(S'path:hsa04610'
+p478
+S'Complement and coagulation cascades - Homo sapiens (human)'
+p479
+tp480
+a(S'path:hsa04611'
+p481
+S'Platelet activation - Homo sapiens (human)'
+p482
+tp483
+a(S'path:hsa04612'
+p484
+S'Antigen processing and presentation - Homo sapiens (human)'
+p485
+tp486
+a(S'path:hsa04614'
+p487
+S'Renin-angiotensin system - Homo sapiens (human)'
+p488
+tp489
+a(S'path:hsa04620'
+p490
+S'Toll-like receptor signaling pathway - Homo sapiens (human)'
+p491
+tp492
+a(S'path:hsa04621'
+p493
+S'NOD-like receptor signaling pathway - Homo sapiens (human)'
+p494
+tp495
+a(S'path:hsa04622'
+p496
+S'RIG-I-like receptor signaling pathway - Homo sapiens (human)'
+p497
+tp498
+a(S'path:hsa04623'
+p499
+S'Cytosolic DNA-sensing pathway - Homo sapiens (human)'
+p500
+tp501
+a(S'path:hsa04630'
+p502
+S'Jak-STAT signaling pathway - Homo sapiens (human)'
+p503
+tp504
+a(S'path:hsa04640'
+p505
+S'Hematopoietic cell lineage - Homo sapiens (human)'
+p506
+tp507
+a(S'path:hsa04650'
+p508
+S'Natural killer cell mediated cytotoxicity - Homo sapiens (human)'
+p509
+tp510
+a(S'path:hsa04660'
+p511
+S'T cell receptor signaling pathway - Homo sapiens (human)'
+p512
+tp513
+a(S'path:hsa04662'
+p514
+S'B cell receptor signaling pathway - Homo sapiens (human)'
+p515
+tp516
+a(S'path:hsa04664'
+p517
+S'Fc epsilon RI signaling pathway - Homo sapiens (human)'
+p518
+tp519
+a(S'path:hsa04666'
+p520
+S'Fc gamma R-mediated phagocytosis - Homo sapiens (human)'
+p521
+tp522
+a(S'path:hsa04668'
+p523
+S'TNF signaling pathway - Homo sapiens (human)'
+p524
+tp525
+a(S'path:hsa04670'
+p526
+S'Leukocyte transendothelial migration - Homo sapiens (human)'
+p527
+tp528
+a(S'path:hsa04672'
+p529
+S'Intestinal immune network for IgA production - Homo sapiens (human)'
+p530
+tp531
+a(S'path:hsa04710'
+p532
+S'Circadian rhythm - Homo sapiens (human)'
+p533
+tp534
+a(S'path:hsa04713'
+p535
+S'Circadian entrainment - Homo sapiens (human)'
+p536
+tp537
+a(S'path:hsa04720'
+p538
+S'Long-term potentiation - Homo sapiens (human)'
+p539
+tp540
+a(S'path:hsa04721'
+p541
+S'Synaptic vesicle cycle - Homo sapiens (human)'
+p542
+tp543
+a(S'path:hsa04722'
+p544
+S'Neurotrophin signaling pathway - Homo sapiens (human)'
+p545
+tp546
+a(S'path:hsa04723'
+p547
+S'Retrograde endocannabinoid signaling - Homo sapiens (human)'
+p548
+tp549
+a(S'path:hsa04724'
+p550
+S'Glutamatergic synapse - Homo sapiens (human)'
+p551
+tp552
+a(S'path:hsa04725'
+p553
+S'Cholinergic synapse - Homo sapiens (human)'
+p554
+tp555
+a(S'path:hsa04726'
+p556
+S'Serotonergic synapse - Homo sapiens (human)'
+p557
+tp558
+a(S'path:hsa04727'
+p559
+S'GABAergic synapse - Homo sapiens (human)'
+p560
+tp561
+a(S'path:hsa04728'
+p562
+S'Dopaminergic synapse - Homo sapiens (human)'
+p563
+tp564
+a(S'path:hsa04730'
+p565
+S'Long-term depression - Homo sapiens (human)'
+p566
+tp567
+a(S'path:hsa04740'
+p568
+S'Olfactory transduction - Homo sapiens (human)'
+p569
+tp570
+a(S'path:hsa04742'
+p571
+S'Taste transduction - Homo sapiens (human)'
+p572
+tp573
+a(S'path:hsa04744'
+p574
+S'Phototransduction - Homo sapiens (human)'
+p575
+tp576
+a(S'path:hsa04750'
+p577
+S'Inflammatory mediator regulation of TRP channels - Homo sapiens (human)'
+p578
+tp579
+a(S'path:hsa04810'
+p580
+S'Regulation of actin cytoskeleton - Homo sapiens (human)'
+p581
+tp582
+a(S'path:hsa04910'
+p583
+S'Insulin signaling pathway - Homo sapiens (human)'
+p584
+tp585
+a(S'path:hsa04911'
+p586
+S'Insulin secretion - Homo sapiens (human)'
+p587
+tp588
+a(S'path:hsa04912'
+p589
+S'GnRH signaling pathway - Homo sapiens (human)'
+p590
+tp591
+a(S'path:hsa04913'
+p592
+S'Ovarian steroidogenesis - Homo sapiens (human)'
+p593
+tp594
+a(S'path:hsa04914'
+p595
+S'Progesterone-mediated oocyte maturation - Homo sapiens (human)'
+p596
+tp597
+a(S'path:hsa04915'
+p598
+S'Estrogen signaling pathway - Homo sapiens (human)'
+p599
+tp600
+a(S'path:hsa04916'
+p601
+S'Melanogenesis - Homo sapiens (human)'
+p602
+tp603
+a(S'path:hsa04917'
+p604
+S'Prolactin signaling pathway - Homo sapiens (human)'
+p605
+tp606
+a(S'path:hsa04918'
+p607
+S'Thyroid hormone synthesis - Homo sapiens (human)'
+p608
+tp609
+a(S'path:hsa04919'
+p610
+S'Thyroid hormone signaling pathway - Homo sapiens (human)'
+p611
+tp612
+a(S'path:hsa04920'
+p613
+S'Adipocytokine signaling pathway - Homo sapiens (human)'
+p614
+tp615
+a(S'path:hsa04921'
+p616
+S'Oxytocin signaling pathway - Homo sapiens (human)'
+p617
+tp618
+a(S'path:hsa04930'
+p619
+S'Type II diabetes mellitus - Homo sapiens (human)'
+p620
+tp621
+a(S'path:hsa04932'
+p622
+S'Non-alcoholic fatty liver disease (NAFLD) - Homo sapiens (human)'
+p623
+tp624
+a(S'path:hsa04940'
+p625
+S'Type I diabetes mellitus - Homo sapiens (human)'
+p626
+tp627
+a(S'path:hsa04950'
+p628
+S'Maturity onset diabetes of the young - Homo sapiens (human)'
+p629
+tp630
+a(S'path:hsa04960'
+p631
+S'Aldosterone-regulated sodium reabsorption - Homo sapiens (human)'
+p632
+tp633
+a(S'path:hsa04961'
+p634
+S'Endocrine and other factor-regulated calcium reabsorption - Homo sapiens (human)'
+p635
+tp636
+a(S'path:hsa04962'
+p637
+S'Vasopressin-regulated water reabsorption - Homo sapiens (human)'
+p638
+tp639
+a(S'path:hsa04964'
+p640
+S'Proximal tubule bicarbonate reclamation - Homo sapiens (human)'
+p641
+tp642
+a(S'path:hsa04966'
+p643
+S'Collecting duct acid secretion - Homo sapiens (human)'
+p644
+tp645
+a(S'path:hsa04970'
+p646
+S'Salivary secretion - Homo sapiens (human)'
+p647
+tp648
+a(S'path:hsa04971'
+p649
+S'Gastric acid secretion - Homo sapiens (human)'
+p650
+tp651
+a(S'path:hsa04972'
+p652
+S'Pancreatic secretion - Homo sapiens (human)'
+p653
+tp654
+a(S'path:hsa04973'
+p655
+S'Carbohydrate digestion and absorption - Homo sapiens (human)'
+p656
+tp657
+a(S'path:hsa04974'
+p658
+S'Protein digestion and absorption - Homo sapiens (human)'
+p659
+tp660
+a(S'path:hsa04975'
+p661
+S'Fat digestion and absorption - Homo sapiens (human)'
+p662
+tp663
+a(S'path:hsa04976'
+p664
+S'Bile secretion - Homo sapiens (human)'
+p665
+tp666
+a(S'path:hsa04977'
+p667
+S'Vitamin digestion and absorption - Homo sapiens (human)'
+p668
+tp669
+a(S'path:hsa04978'
+p670
+S'Mineral absorption - Homo sapiens (human)'
+p671
+tp672
+a(S'path:hsa05010'
+p673
+S"Alzheimer's disease - Homo sapiens (human)"
+p674
+tp675
+a(S'path:hsa05012'
+p676
+S"Parkinson's disease - Homo sapiens (human)"
+p677
+tp678
+a(S'path:hsa05014'
+p679
+S'Amyotrophic lateral sclerosis (ALS) - Homo sapiens (human)'
+p680
+tp681
+a(S'path:hsa05016'
+p682
+S"Huntington's disease - Homo sapiens (human)"
+p683
+tp684
+a(S'path:hsa05020'
+p685
+S'Prion diseases - Homo sapiens (human)'
+p686
+tp687
+a(S'path:hsa05030'
+p688
+S'Cocaine addiction - Homo sapiens (human)'
+p689
+tp690
+a(S'path:hsa05031'
+p691
+S'Amphetamine addiction - Homo sapiens (human)'
+p692
+tp693
+a(S'path:hsa05032'
+p694
+S'Morphine addiction - Homo sapiens (human)'
+p695
+tp696
+a(S'path:hsa05033'
+p697
+S'Nicotine addiction - Homo sapiens (human)'
+p698
+tp699
+a(S'path:hsa05034'
+p700
+S'Alcoholism - Homo sapiens (human)'
+p701
+tp702
+a(S'path:hsa05100'
+p703
+S'Bacterial invasion of epithelial cells - Homo sapiens (human)'
+p704
+tp705
+a(S'path:hsa05110'
+p706
+S'Vibrio cholerae infection - Homo sapiens (human)'
+p707
+tp708
+a(S'path:hsa05120'
+p709
+S'Epithelial cell signaling in Helicobacter pylori infection - Homo sapiens (human)'
+p710
+tp711
+a(S'path:hsa05130'
+p712
+S'Pathogenic Escherichia coli infection - Homo sapiens (human)'
+p713
+tp714
+a(S'path:hsa05131'
+p715
+S'Shigellosis - Homo sapiens (human)'
+p716
+tp717
+a(S'path:hsa05132'
+p718
+S'Salmonella infection - Homo sapiens (human)'
+p719
+tp720
+a(S'path:hsa05133'
+p721
+S'Pertussis - Homo sapiens (human)'
+p722
+tp723
+a(S'path:hsa05134'
+p724
+S'Legionellosis - Homo sapiens (human)'
+p725
+tp726
+a(S'path:hsa05140'
+p727
+S'Leishmaniasis - Homo sapiens (human)'
+p728
+tp729
+a(S'path:hsa05142'
+p730
+S'Chagas disease (American trypanosomiasis) - Homo sapiens (human)'
+p731
+tp732
+a(S'path:hsa05143'
+p733
+S'African trypanosomiasis - Homo sapiens (human)'
+p734
+tp735
+a(S'path:hsa05144'
+p736
+S'Malaria - Homo sapiens (human)'
+p737
+tp738
+a(S'path:hsa05145'
+p739
+S'Toxoplasmosis - Homo sapiens (human)'
+p740
+tp741
+a(S'path:hsa05146'
+p742
+S'Amoebiasis - Homo sapiens (human)'
+p743
+tp744
+a(S'path:hsa05150'
+p745
+S'Staphylococcus aureus infection - Homo sapiens (human)'
+p746
+tp747
+a(S'path:hsa05152'
+p748
+S'Tuberculosis - Homo sapiens (human)'
+p749
+tp750
+a(S'path:hsa05160'
+p751
+S'Hepatitis C - Homo sapiens (human)'
+p752
+tp753
+a(S'path:hsa05161'
+p754
+S'Hepatitis B - Homo sapiens (human)'
+p755
+tp756
+a(S'path:hsa05162'
+p757
+S'Measles - Homo sapiens (human)'
+p758
+tp759
+a(S'path:hsa05164'
+p760
+S'Influenza A - Homo sapiens (human)'
+p761
+tp762
+a(S'path:hsa05166'
+p763
+S'HTLV-I infection - Homo sapiens (human)'
+p764
+tp765
+a(S'path:hsa05168'
+p766
+S'Herpes simplex infection - Homo sapiens (human)'
+p767
+tp768
+a(S'path:hsa05169'
+p769
+S'Epstein-Barr virus infection - Homo sapiens (human)'
+p770
+tp771
+a(S'path:hsa05200'
+p772
+S'Pathways in cancer - Homo sapiens (human)'
+p773
+tp774
+a(S'path:hsa05202'
+p775
+S'Transcriptional misregulation in cancer - Homo sapiens (human)'
+p776
+tp777
+a(S'path:hsa05203'
+p778
+S'Viral carcinogenesis - Homo sapiens (human)'
+p779
+tp780
+a(S'path:hsa05204'
+p781
+S'Chemical carcinogenesis - Homo sapiens (human)'
+p782
+tp783
+a(S'path:hsa05205'
+p784
+S'Proteoglycans in cancer - Homo sapiens (human)'
+p785
+tp786
+a(S'path:hsa05206'
+p787
+S'MicroRNAs in cancer - Homo sapiens (human)'
+p788
+tp789
+a(S'path:hsa05210'
+p790
+S'Colorectal cancer - Homo sapiens (human)'
+p791
+tp792
+a(S'path:hsa05211'
+p793
+S'Renal cell carcinoma - Homo sapiens (human)'
+p794
+tp795
+a(S'path:hsa05212'
+p796
+S'Pancreatic cancer - Homo sapiens (human)'
+p797
+tp798
+a(S'path:hsa05213'
+p799
+S'Endometrial cancer - Homo sapiens (human)'
+p800
+tp801
+a(S'path:hsa05214'
+p802
+S'Glioma - Homo sapiens (human)'
+p803
+tp804
+a(S'path:hsa05215'
+p805
+S'Prostate cancer - Homo sapiens (human)'
+p806
+tp807
+a(S'path:hsa05216'
+p808
+S'Thyroid cancer - Homo sapiens (human)'
+p809
+tp810
+a(S'path:hsa05217'
+p811
+S'Basal cell carcinoma - Homo sapiens (human)'
+p812
+tp813
+a(S'path:hsa05218'
+p814
+S'Melanoma - Homo sapiens (human)'
+p815
+tp816
+a(S'path:hsa05219'
+p817
+S'Bladder cancer - Homo sapiens (human)'
+p818
+tp819
+a(S'path:hsa05220'
+p820
+S'Chronic myeloid leukemia - Homo sapiens (human)'
+p821
+tp822
+a(S'path:hsa05221'
+p823
+S'Acute myeloid leukemia - Homo sapiens (human)'
+p824
+tp825
+a(S'path:hsa05222'
+p826
+S'Small cell lung cancer - Homo sapiens (human)'
+p827
+tp828
+a(S'path:hsa05223'
+p829
+S'Non-small cell lung cancer - Homo sapiens (human)'
+p830
+tp831
+a(S'path:hsa05310'
+p832
+S'Asthma - Homo sapiens (human)'
+p833
+tp834
+a(S'path:hsa05320'
+p835
+S'Autoimmune thyroid disease - Homo sapiens (human)'
+p836
+tp837
+a(S'path:hsa05321'
+p838
+S'Inflammatory bowel disease (IBD) - Homo sapiens (human)'
+p839
+tp840
+a(S'path:hsa05322'
+p841
+S'Systemic lupus erythematosus - Homo sapiens (human)'
+p842
+tp843
+a(S'path:hsa05323'
+p844
+S'Rheumatoid arthritis - Homo sapiens (human)'
+p845
+tp846
+a(S'path:hsa05330'
+p847
+S'Allograft rejection - Homo sapiens (human)'
+p848
+tp849
+a(S'path:hsa05332'
+p850
+S'Graft-versus-host disease - Homo sapiens (human)'
+p851
+tp852
+a(S'path:hsa05340'
+p853
+S'Primary immunodeficiency - Homo sapiens (human)'
+p854
+tp855
+a(S'path:hsa05410'
+p856
+S'Hypertrophic cardiomyopathy (HCM) - Homo sapiens (human)'
+p857
+tp858
+a(S'path:hsa05412'
+p859
+S'Arrhythmogenic right ventricular cardiomyopathy (ARVC) - Homo sapiens (human)'
+p860
+tp861
+a(S'path:hsa05414'
+p862
+S'Dilated cardiomyopathy - Homo sapiens (human)'
+p863
+tp864
+a(S'path:hsa05416'
+p865
+S'Viral myocarditis - Homo sapiens (human)'
+p866
+tp867
+a.

@@ -25,7 +25,7 @@ Or, you can `download the source code <(https://github.com/GuipengLi/SharePathwa
 Usage
 -----
 
-Assume you have put all the path of your gene list files in one summary file genelists.txt (one path per line). And the result will be saved in the file result.html::
+Assume you have put all the path of your gene list files in one summary file genelists.txt (one path per line) in the directory ~/data/. Go into this directory,open python and run the scripts below. The result will be saved in the result.html file::
 
 	import sharepathway as sp
 	filein="data/genelists.txt"
@@ -38,7 +38,7 @@ The result will be output to a html file.
 Test data
 ---------
 
-See the gene list files in data/
+See the gene list files and genelists.txt file in data/
 
 
 Contact
