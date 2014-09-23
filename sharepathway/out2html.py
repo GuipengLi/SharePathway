@@ -133,8 +133,8 @@ def out2html(*args, **kwargs):
             ratio = ratio
             # prepare the table
             pathwayid = Pathways[i]
-	    if pathwayid in pwid2name:
-	        pwname = pwid2name[pathwayid].split(' - ')[0].strip()
+            if pathwayid in pwid2name:
+                pwname = pwid2name[pathwayid].split(' - ')[0].strip()
             genes = [g for g,p in zip(Genes,pathwayMat[:,i]) if p]
             genesid = '+'.join([g.split(':')[1] for g in genes])
             mapid = "http://www.kegg.jp/pathway/"+pathwayid.split(':')[1]+'+'+genesid
@@ -150,7 +150,7 @@ def out2html(*args, **kwargs):
                 j = j+1
                 x2value = x2value -2*np.log(fp)
             #pvalue = -np.log10(1 - stats.chi2.cdf(x2value,2*snum)+1e-10)
-	    #pvalue = 1 - stats.chi2.cdf(x2value,2*snum)
+            #pvalue = 1 - stats.chi2.cdf(x2value,2*snum)
             pvalue = stats.chisqprob(x2value,2*snum)
             # hyperlink to mapid
             print >>outfile, '''<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%.2f</td><td>%.2E</td><td>%s</td></tr>''' % (
