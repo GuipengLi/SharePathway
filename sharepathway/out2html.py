@@ -34,7 +34,7 @@ def out2html(*args, **kwargs):
                 fs.write(line)
     outfile = open(outfilename, "w")
 
-    print >>outfile, """<!doctype html>
+    outfile.write("""<!doctype html>
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
@@ -89,9 +89,9 @@ def out2html(*args, **kwargs):
         }
       );
     </script>
-</head>"""
+</head>""")
     #summary
-    print >>outfile, """
+    outfile.write("""
 <body>
 <div id='summary'>
 <h1>Summary</h1>
@@ -106,10 +106,10 @@ def out2html(*args, **kwargs):
 </ul>
 </h2>
 </div>
-""" %('hsa',pnum,snum,str(genelistscount),gnum, localtime)
+""" %('hsa',pnum,snum,str(genelistscount),gnum, localtime))
 
 
-    print >>outfile, """
+    outfile.write("""
 <div id='Details'>
 <h1>Details</h1>
 <table id="myTable" class="tablesorter">
@@ -124,7 +124,7 @@ def out2html(*args, **kwargs):
     <th>Samples</th>
 </tr>
 </thead>
-<tbody>"""
+<tbody>""")
     counter = 1
     for i in range(enrich.shape[0]):
         ratio = (np.sum(enrich[i,:]>0)+0.0)/enrich.shape[1]
@@ -135,7 +135,7 @@ def out2html(*args, **kwargs):
             pathwayid = Pathways[i]
             if pathwayid in pwid2name:
                 pwname = pwid2name[pathwayid].split(' - ')[0].strip()
-            genes = [g for g,p in zip(Genes,pathwayMat[:,i]) if p]
+            genes = [str(g) for g,p in zip(Genes,pathwayMat[:,i]) if p]
             genesid = '+'.join([g.split(':')[1] for g in genes])
             mapid = "http://www.kegg.jp/pathway/"+pathwayid.split(':')[1]+'+'+genesid
             count = len(genes)
@@ -153,9 +153,10 @@ def out2html(*args, **kwargs):
             #pvalue = 1 - stats.chi2.cdf(x2value,2*snum)
             pvalue = stats.chisqprob(x2value,2*snum)
             # hyperlink to mapid
-            print >>outfile, '''<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%.2f</td><td>%.2E</td><td>%s</td></tr>''' % (
-                mapid, pwname, genes, pn,count, ratio, pvalue, str(samples))
+            outfile.write('''<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%.2f</td><td>%.2E</td><td>%s</td></tr>''' % (
+                mapid, pwname, genes, pn,count, ratio, pvalue, str(samples)))
         counter += 1
-    print >>outfile, """</tbody></table></div>"""
-    print >>outfile, """<div id='footerText'>Copyright 2014-2017 by Guipeng Li. All Rights Reserved.<br></div></body></html>"""
+    outfile.write("""</tbody></table></div>""")
+    outfile.write("""<div id='footerText'>Copyright 2014-2017 by Guipeng Li. All Rights Reserved.<br></div></body></html>""")
+    outfile.close()
     return enrich
