@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name = 'sharepathway',
     packages = ['sharepathway'], # this must be the same as the name above
-    version = '0.2.3',
+    version = '0.3.0',
     description = 'A Python package for KEGG pathway enrichment analysis with multiple gene lists',
     author = 'Guipeng Li',
     author_email = 'guipenglee@gmail.com',
@@ -12,5 +12,5 @@ setup(
     classifiers = [],
     long_description=open('README.rst').read(),
     include_package_data=True,
-    install_requires=["numpy >= 1.6.0", "scipy >= 0.12.0"],
+    install_requires=["numpy >= 1.4.0", "scipy >= 0.9.0"],
 )

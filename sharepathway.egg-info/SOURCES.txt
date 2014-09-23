@@ -11,7 +11,6 @@ sharepathway/linkpath2mat.py
 sharepathway/out2html.py
 sharepathway/parse_kegg.py
 sharepathway/run.py
-sharepathway/uniprot_mapping.py
 sharepathway.egg-info/PKG-INFO
 sharepathway.egg-info/SOURCES.txt
 sharepathway.egg-info/dependency_links.txt

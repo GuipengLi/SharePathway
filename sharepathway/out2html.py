@@ -85,7 +85,7 @@ def out2html(*args, **kwargs):
     <script>
       $(document).ready(function()
         {
-            $("#myTable").tablesorter( {sortList: [[5,1], [4,1]]} );
+            $("#myTable").tablesorter( {sortList: [[5,0], [4,1]]} );
         }
       );
     </script>
@@ -120,7 +120,7 @@ def out2html(*args, **kwargs):
     <th>pCount</th>
     <th>Count</th>
     <th>Ratio</th>
-    <th>-lg(P-value)</th>
+    <th>P-value</th>
     <th>Samples</th>
 </tr>
 </thead>
@@ -134,7 +134,7 @@ def out2html(*args, **kwargs):
             # prepare the table
             pathwayid = Pathways[i]
 	    if pathwayid in pwid2name:
-	        pwname = pwid2name[pathwayid].split('-')[0].strip()
+	        pwname = pwid2name[pathwayid].split(' - ')[0].strip()
             genes = [g for g,p in zip(Genes,pathwayMat[:,i]) if p]
             genesid = '+'.join([g.split(':')[1] for g in genes])
             mapid = "http://www.kegg.jp/pathway/"+pathwayid.split(':')[1]+'+'+genesid
@@ -149,9 +149,11 @@ def out2html(*args, **kwargs):
                 #    print(s,pn,genelistscount[j],fp)
                 j = j+1
                 x2value = x2value -2*np.log(fp)
-            pvalue = -np.log10(1 - stats.chi2.cdf(x2value,2*snum)+1e-10)
+            #pvalue = -np.log10(1 - stats.chi2.cdf(x2value,2*snum)+1e-10)
+	    #pvalue = 1 - stats.chi2.cdf(x2value,2*snum)
+            pvalue = stats.chisqprob(x2value,2*snum)
             # hyperlink to mapid
-            print >>outfile, '''<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%.2f</td><td>%.2f</td><td>%s</td></tr>''' % (
+            print >>outfile, '''<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%.2f</td><td>%.2E</td><td>%s</td></tr>''' % (
                 mapid, pwname, genes, pn,count, ratio, pvalue, str(samples))
         counter += 1
     print >>outfile, """</tbody></table></div>"""

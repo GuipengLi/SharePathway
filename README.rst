@@ -10,7 +10,7 @@ SharePathway is motivated at providing users a simple and easy-to-use tool for e
 Installation
 ------------
 
-This version is only for python2. I'm working on update for python3. 
+This version is for both python2 and python3. 
 The first step is to install Python if you haven't already. Python is available from the `Python project page <https://www.python.org/>`_ . The next step is install sharepathway.
 
 Install from PyPi using `pip <http://www.pip-installer.org/en/latest/>`_, a
@@ -28,7 +28,7 @@ Usage
 Assume you have put all the path of your gene list files in one summary file genelists.txt (one path per line) in the directory ~/data/. Go into this directory,open python and run the scripts below. The result will be saved in the result.html file::
 
 	import sharepathway as sp
-	filein="data/genelists.txt"
+	filein="genelists.txt"
 	fileout="result"
 	sp.Run(fi=filein,fo=fileout)
 

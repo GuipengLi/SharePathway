@@ -2,15 +2,14 @@
 from itertools import chain, groupby
 from collections import defaultdict
 import pickle
-import urllib2
 import numpy as np
 
-from sharepathway.enrichment import enrichment
-from sharepathway.geneIDconv import geneIDconv
-from sharepathway.genes2mat import genes2mat
-from sharepathway.linkpath2mat import linkpath2mat
-from sharepathway.out2html import out2html
-from sharepathway.parse_kegg import Request
+from .enrichment import enrichment
+from .geneIDconv import geneIDconv
+from .genes2mat import genes2mat
+from .linkpath2mat import linkpath2mat
+from .out2html import out2html
+from .parse_kegg import Request
 
 def Run(*args, **kwargs):
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 '''sharepathway
 '''
-from sharepathway.run import Run
+from .run import Run
 
-VERSION = '0.2.2'
+VERSION = '0.3.0'

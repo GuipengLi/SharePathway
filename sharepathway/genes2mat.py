@@ -15,13 +15,13 @@ def genes2mat(*args, **kwargs):
     k = 0
     with open(files, 'r') as fs:
         for f in fs:
-            print("Loading the file " + files)
+            print(("Loading the file " + files))
             f = f.strip()
             genelists.append([])
             with open(f,'r') as genelist:
                 for gene in genelist:
                     gene = gene.strip()
-                    if KGID.has_key(gene):
+                    if gene in KGID:
                         gene = KGID[gene]
                         #gene = geneIDconv(gene)
                         genelists[j].append(gene)
