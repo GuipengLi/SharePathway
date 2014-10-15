@@ -140,7 +140,7 @@ def out2html(*args, **kwargs):
             x2value = 0
             j = 0
             for s in samples:
-                fp = stats.fisher_exact([[s,genelistscount[j]],[pn,20000]])[1]
+                fp = stats.fisher_exact([[s,genelistscount[j]],[pn,30739]])[1]
                 #if fp<0.1:
                 #    print(s,pn,genelistscount[j],fp)
                 j = j+1
