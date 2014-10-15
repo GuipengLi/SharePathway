@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: sharepathway
-Version: 0.4.0
+Version: 0.4.1
 Summary: A Python package for KEGG pathway enrichment analysis with multiple gene lists
 Home-page: https://github.com/GuipengLi/sharepathway
 Author: Guipeng Li
