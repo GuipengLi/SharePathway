@@ -11,7 +11,7 @@ Installation
 ------------
 
 This version is for both python2 and python3.
-The first step is to install Python if you haven't already. Python is available from the `Python project page <https://www.python.org/>`_ . The next step is install sharepathway.
+The first step is to install Python. Python is available from the `Python project page <https://www.python.org/>`_ . The next step is install sharepathway.
 
 Install from PyPi using `pip <http://www.pip-installer.org/en/latest/>`_, a
 package manager for Python::

@@ -10,6 +10,7 @@ sharepathway/genes2mat.py
 sharepathway/linkpath2mat.py
 sharepathway/out2html.py
 sharepathway/parse_kegg.py
+sharepathway/readfiles.py
 sharepathway/run.py
 sharepathway.egg-info/PKG-INFO
 sharepathway.egg-info/SOURCES.txt
