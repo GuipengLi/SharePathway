@@ -28,9 +28,14 @@ def Run(*args, **kwargs):
         [Genes, genelists] = readfiles(filein,KGID)
         print('Read from file...')
     else:
+        glists = genelists
+        ii = 0
         for gl in genelists:
-            Genes = Genes.union(set(gl))
+            glists[ii] = [KGID[row] for row in gl if row in KGID]
+            Genes = Genes.union(set(glists[ii]))
+            ii = ii+1
         Genes = list(Genes)
+
         print('Read from python variable...')
 
     GenesMat = genes2mat(genelists,Genes)

@@ -26,12 +26,8 @@ def out2html(*args, **kwargs):
     pnum = pathwayMat.shape[1]
     gnum = GenesMat.shape[0]
     genelistscount = [len(gl) for gl in genelists]
-    with open(outfilename+'-test', 'w') as fs:
-        for i in range(enrich.shape[0]):
-            ratio = (np.sum(enrich[i,:]>0)+0.0)/enrich.shape[1]
-            if ratio > rr:
-                line = str(enrich[i,:]) + '\t'+str(ratio)+'\n'
-                fs.write(line)
+
+    fs = open(outfilename+'-test.txt', 'w')
     outfile = open(outfilename, "w")
 
     outfile.write("""<!doctype html>
@@ -155,8 +151,10 @@ def out2html(*args, **kwargs):
             # hyperlink to mapid
             outfile.write('''<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%.2f</td><td>%.2E</td><td>%s</td></tr>''' % (
                 mapid, pwname, genes, pn,count, ratio, pvalue, str(samples)))
+            fs.write('''%s\t%s\t%s\t%s\t%s\t%s\t%s\n''' %(pwname, genes, pn,count, ratio, pvalue, str(samples)))
         counter += 1
     outfile.write("""</tbody></table></div>""")
     outfile.write("""<div id='footerText'>Copyright 2014-2017 by Guipeng Li. All Rights Reserved.<br></div></body></html>""")
     outfile.close()
+    fs.close()
     return enrich
