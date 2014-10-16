@@ -140,7 +140,7 @@ def out2html(*args, **kwargs):
             x2value = 0
             j = 0
             for s in samples:
-                fp = stats.fisher_exact([[s,genelistscount[j]],[pn,30739]])[1]
+                fp = stats.fisher_exact([[s,genelistscount[j]],[pn,20000]])[1]
                 #if fp<0.1:
                 #    print(s,pn,genelistscount[j],fp)
                 j = j+1
@@ -149,9 +149,10 @@ def out2html(*args, **kwargs):
             #pvalue = 1 - stats.chi2.cdf(x2value,2*snum)
             pvalue = stats.chisqprob(x2value,2*snum)
             # hyperlink to mapid
+            strsamples = ', '.join([str(int(i)) for i in samples])
             outfile.write('''<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%.2f</td><td>%.2E</td><td>%s</td></tr>''' % (
-                mapid, pwname, genes, pn,count, ratio, pvalue, str(samples)))
-            fs.write('''%s\t%s\t%s\t%s\t%s\t%s\t%s\n''' %(pwname, genes, pn,count, ratio, pvalue, str(samples)))
+                mapid, pwname, genes, pn,count, ratio, pvalue, strsamples))
+            fs.write('''%s\t%s\t%s\t%s\t%s\t%s\t%s\n''' %(pwname, genes, pn,count, ratio, pvalue, strsamples))
         counter += 1
     outfile.write("""</tbody></table></div>""")
     outfile.write("""<div id='footerText'>Copyright 2014-2017 by Guipeng Li. All Rights Reserved.<br></div></body></html>""")
