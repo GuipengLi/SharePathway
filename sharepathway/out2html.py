@@ -116,7 +116,9 @@ def out2html(*args, **kwargs):
     <th>pCount</th>
     <th>Count</th>
     <th>Ratio</th>
-    <th>P-value</th>
+    <th>Pvalue</th>
+    <th>EASE</th>
+    <th>FET</th>
     <th>Samples</th>
 </tr>
 </thead>
@@ -140,7 +142,7 @@ def out2html(*args, **kwargs):
             x2value = 0
             j = 0
             for s in samples:
-                fp = stats.fisher_exact([[s,genelistscount[j]],[pn,20000]])[1]
+                fp = stats.fisher_exact([[s,genelistscount[j]-s],[pn,30000-pn]])[1]
                 #if fp<0.1:
                 #    print(s,pn,genelistscount[j],fp)
                 j = j+1
@@ -148,11 +150,13 @@ def out2html(*args, **kwargs):
             #pvalue = -np.log10(1 - stats.chi2.cdf(x2value,2*snum)+1e-10)
             #pvalue = 1 - stats.chi2.cdf(x2value,2*snum)
             pvalue = stats.chisqprob(x2value,2*snum)
+            ease = stats.fisher_exact([[count-1,gnum-count],[pn,30000-pn]])[1]
+            fet = stats.fisher_exact([[count,gnum-count],[pn,30000-pn]])[1]
             # hyperlink to mapid
             strsamples = ', '.join([str(int(i)) for i in samples])
-            outfile.write('''<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%.2f</td><td>%.2E</td><td>%s</td></tr>''' % (
-                mapid, pwname, genes, pn,count, ratio, pvalue, strsamples))
-            fs.write('''%s\t%s\t%s\t%s\t%s\t%s\t%s\n''' %(pwname, genes, pn,count, ratio, pvalue, strsamples))
+            outfile.write('''<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%.2f</td><td>%.2E</td><td>%.2E</td><td>%.2E</td><td>%s</td></tr>''' % (
+                mapid, pwname, genes, pn,count, ratio, pvalue, ease, fet, strsamples))
+            fs.write('''%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n''' %(pwname, genes, pn,count, ratio, pvalue, ease, fet, strsamples))
         counter += 1
     outfile.write("""</tbody></table></div>""")
     outfile.write("""<div id='footerText'>Copyright 2014-2017 by Guipeng Li. All Rights Reserved.<br></div></body></html>""")
