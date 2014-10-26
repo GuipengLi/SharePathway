@@ -32,7 +32,7 @@ Assume you have put all the path of your gene list files in one summary file gen
 	fileout="result"
 	sp.Run(fi=filein,fo=fileout)
 
-The result will be output to a html file.
+Entrez Gene ID is supported. The result will be output to a html file.
 
 
 Test data
