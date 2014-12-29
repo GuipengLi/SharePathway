@@ -48,19 +48,19 @@ Output Description
 
   This part list the ranked pathways and related information as shown below.
 
- ==========  =============================================================
- **Column**  **Description**
- ==========  =============================================================
- Pathway     Pathway name and hyperlink to modified KEGG map
- Genes       KEGG ID of the genes in the pathway
- pCount      Total number of genes in the pathway
- Count       The number of recognized genes from user input
- Ratio       The percentage of lists that containing genes in the pathway
- Pvalue      The combined p valude from Fisher's Method
- EASE        EASE score defined by DAVID, from merged gene list
- FET         P value of the Fisher Exact Test, from merged gene list
- Samples     The number of genes in the pathway in each list
- =========== =============================================================
+  ======= ===========
+  Column  Description
+  ======= ===========
+  Pathway Pathway name and hyperlink to modified KEGG map
+  Genes   KEGG ID of the genes in the pathway
+  pCount  Total number of genes in the pathway
+  Count   The number of recognized genes from user input
+  Ratio   The percentage of lists that containing genes in the pathway
+  Pvalue  The combined p valude from Fisher's Method
+  EASE    EASE score defined by DAVID, from merged gene list
+  FET     P value of the Fisher Exact Test, from merged gene list
+  Samples The number of genes in the pathway in each list
+  ======= ===========
 
 
 Test data
