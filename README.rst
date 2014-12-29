@@ -35,6 +35,32 @@ Assume you have put all the path of your gene list files in one summary file gen
 Entrez Gene ID is supported. The result will be output to a html file.
 
 
+Output Description
+------------------
+
+.. list-tables::
+   :widths: 30 200
+   :header-rows: 1
+
+   * - Column
+     - Description
+   * - Pathway
+     - Pathway name and hyperlink to modified KEGG map
+   * - Genes
+     - KEGG¡¡ID of the genes in the pathway
+   * - pCount
+     - Total number of genes in the pathway
+   * - Count
+     - The number of recognized genes from user input
+   * - Ratio
+     - The percentage of lists that containing genes in the corresponding pathway
+   * - Pvalue
+     - The combined p valude from Fisher's Method
+   * - EASE
+     - EASE¡¡score defined by DAVID, from merged gene list
+   * - FET
+     - P value of the Fisher Exact Test, from merged gene list Samples The number of genes in the pathway in each list
+
 Test data
 ---------
 

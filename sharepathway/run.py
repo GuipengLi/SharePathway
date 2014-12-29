@@ -13,6 +13,15 @@ from .parse_kegg import Request
 from .readfiles import readfiles
 
 def Run(*args, **kwargs):
+    '''KEGG pathway enrichment analysis with multiple gene lists
+    Keyword arguments:
+        fi -- input file containing gene list file names
+        fo -- output html file name
+        species --  KEGG organism code (default:hsa) , see http://rest.kegg.jp/list/organism
+        r -- ratio, only output the pathway with ratio>r (default:0.01)
+    Example:
+        Run(fi="genelist.txt",fo="result")
+    '''
 
     species = kwargs.get('species', 'hsa') #default: 'hsa'
     filein = kwargs.get('fi')
