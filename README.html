@@ -1016,8 +1016,8 @@ body .markdown-body
 }
 </style><title>README</title></head><body><article class="markdown-body"><h1 id="sharepathway"><a name="user-content-sharepathway" href="#sharepathway" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>SharePathway</h1>
 <p>SharePathway is a python package for KEGG pathway enrichment analysis with multiple gene lists.</p>
-<p>There have been dozens of tools or web servers for enrichment analysis using a list of candidate genes from some kinds of high throughput experiments,such as Exome-Seq and RNA-Seq. But the reality is that we usually get multiple gene lists, each from one sample or patient. We can do enrichment analysis for each sample then check which pathway or module is enrich. This strategy is simple and commonly used in cancer study. But we may miss some important driver genes.</p>
-<p>SharePathway is motivated at providing users a simple and easy-to-use tool for enrichment analysis on multiple lists of genes simultaneously.</p>
+<p>There have been dozens of tools or web servers for enrichment analysis using a list of candidate genes from some kinds of high throughput experiments,such as Exome-Seq and RNA-Seq. But the reality is that we usually get multiple gene lists, each from one sample or patient. We can do enrichment analysis for each sample then check which pathway or module is enriched. This strategy is simple and commonly used in cancer study. But we may lose some important driver genes.</p>
+<p>SharePathway is motivated at providing users a simple and easy-to-use tool for enrichment analysis on multiple lists of genes simultaneously, which may help gain insight into the underlying biological background of these lists of genes.</p>
 <h2 id="installation"><a name="user-content-installation" href="#installation" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Installation</h2>
 <p>This version is for both python2 and python3.<br />
 The first step is to install Python. Python is available from the <code>Python project page &lt;https://www.python.org/&gt;</code>_ . The next step is install sharepathway.</p>
@@ -1033,21 +1033,69 @@ package manager for Python::</p>
 <pre><code>import sharepathway as sp
 filein=&rdquo;genelists.txt&rdquo;
 fileout=&rdquo;result&rdquo;
-sp.Run(fi=filein,fo=fileout)</code></pre>
-<p>Entrez Gene ID is supported. The result will be output to a html file.</p>
+sp.Run(fi=filein,fo=fileout,species=&rsquo;hsa&rsquo;,r=0.1)</code></pre>
+<p>The default value of species is &lsquo;hsa&rsquo;, represents human species.<br />
+The ratio r is the min threshold. The default value is 0.01.<br />
+Entrez Gene ID is supported. The result will be output to a html file.</p>
 <h2 id="output-description"><a name="user-content-output-description" href="#output-description" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Output Description</h2>
-<p>|| <em>Column</em> || <em>Description</em> ||<br />
-|| Pathway  || Pathway name and hyperlink to modified KEGG map||<br />
-|| Genes  ||  KEGG　ID of the genes in the pathway ||<br />
-|| pCount  ||  Total number of genes in the pathway ||<br />
-|| Count  ||  The number of recognized genes from user input ||<br />
-|| Ratio  || The percentage of lists that containing genes in the corresponding pathway  ||<br />
-|| Pvalue  ||  The combined p valude from Fisher&rsquo;s Method  ||<br />
-|| EASE  ||  EASE　score defined by DAVID, from merged gene list ||<br />
-|| FET  ||  P value of the Fisher Exact Test, from merged gene list ||<br />
-|| Samples   || The number of genes in the pathway in each list  ||</p>
+<ul>
+<li>
+<p><em>Summary</em><br />
+  This part summarizes the input data.</p>
+</li>
+<li>
+<p><em>Details</em><br />
+  This part list the ranked pathways and related information as shown below.</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><em>Column</em></th>
+<th><em>Description</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pathway</td>
+<td>Pathway name and hyperlink to modified KEGG map</td>
+</tr>
+<tr>
+<td>Genes</td>
+<td>KEGG　ID of the genes in the pathway</td>
+</tr>
+<tr>
+<td>pCount</td>
+<td>Total number of genes in the pathway</td>
+</tr>
+<tr>
+<td>Count</td>
+<td>The number of recognized genes from user input</td>
+</tr>
+<tr>
+<td>Ratio</td>
+<td>The percentage of lists that containing genes in the corresponding pathway</td>
+</tr>
+<tr>
+<td>Pvalue</td>
+<td>The combined p valude from Fisher&rsquo;s Method</td>
+</tr>
+<tr>
+<td>EASE</td>
+<td>EASE　score defined by DAVID, from merged gene list</td>
+</tr>
+<tr>
+<td>FET</td>
+<td>P value of the Fisher Exact Test, from merged gene list</td>
+</tr>
+<tr>
+<td>Samples</td>
+<td>The number of genes in the pathway in each list</td>
+</tr>
+</tbody>
+</table>
 <h2 id="test-data"><a name="user-content-test-data" href="#test-data" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Test data</h2>
-<p>See the gene list files and genelists.txt file in data/</p>
+<p>See the gene list files and genelists.txt file in data/. This is just toy data.</p>
 <h2 id="contact"><a name="user-content-contact" href="#contact" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Contact</h2>
 <p>Author: Guipeng Li</p>
 <p>Email:  <a href="mailto:guipeng.lee@gmail.com">guipeng.lee@gmail.com</a></p></article></body></html>
