@@ -4,6 +4,7 @@ MANIFEST.in
 README.rst
 setup.py
 sharepathway/__init__.py
+sharepathway/correct_pvalues.py
 sharepathway/enrichment.py
 sharepathway/geneIDconv.py
 sharepathway/genes2mat.py
